@@ -1,8 +1,0 @@
-<svg id="Icons_Navigation_icon_12_states_" data-name="Icons / Navigation icon (12 states)" xmlns="http://www.w3.org/2000/svg" width="32.833" height="33.167" viewBox="0 0 32.833 33.167">
-  <g id="ic_dashboard">
-    <g id="home">
-      <path id="Path_372" data-name="Path 372" d="M0,0H32.833V33.167H0Z" fill="none"/>
-    </g>
-    <path id="Shape" d="M18.742,29.166H1.442A1.451,1.451,0,0,1,0,27.708V9.479A2.9,2.9,0,0,1,2.883,6.562H8.65V2.916A2.9,2.9,0,0,1,11.533,0H17.3a2.9,2.9,0,0,1,2.883,2.916V13.125H25.95a2.9,2.9,0,0,1,2.883,2.916V27.708a1.451,1.451,0,0,1-1.442,1.458ZM25.95,26.25V16.041H20.184V26.25Zm-14.416,0H17.3V16.041q0-.043,0-.087V2.916H11.533Zm-8.65,0H8.65V9.479H2.883Z" transform="translate(2 2)" fill="#3592D6"/>
-  </g>
-</svg>
