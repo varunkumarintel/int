@@ -4,7 +4,15 @@
   <base href="/int/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <meta http-equiv="content-security-policy" content="script-src 'self' 'sha256-cUN0iCe95mZM+mPih5Szx44P95WiP83dlW8+qPvZXgQ='">
+  <meta http-equiv="content-security-policy" content="default-src 'self' *.google.com *.gstatic.com wss://widget-mediator.zopim.com login.microsoftonline.com *.b2clogin.com;
+object-src 'none';
+style-src 'self' 'unsafe-inline' fonts.googleapis.com;
+connect-src wss: ws: https:;
+base-uri 'self';
+script-src 'self' 'strict-dynamic' 'sha256-maqDExIpmR/IHAmL3YUZ33zmc7HzMWYhure4CjnFlV0=';
+script-src-elem 'self' 'unsafe-inline' b2ctest.pinkerton.com *.login.microsoftonline.com *.google.com *.gstatic.com *.zdassets.com *.azurewebsites.net;
+img-src 'self' data: mediastream: blob: filesystem:;
+font-src 'self' fonts.gstatic.com;">
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
