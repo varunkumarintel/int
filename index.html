@@ -4,15 +4,15 @@
   <base href="/int/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <meta http-equiv="content-security-policy" content="default-src 'self' *.google.com *.gstatic.com wss://widget-mediator.zopim.com login.microsoftonline.com *.b2clogin.com;
+  <meta http-equiv="content-security-policy" content="default-src 'self';
+script-src 'self' 'report-sample' 'unsafe-inline' https://cdnjs.cloudflare.com 'nonce-ub2qHp8hj0SlVhBDxb/qSA==' 'strict-dynamic';
+style-src 'self' 'unsafe-inline' cdnjs.cloudflare.com fonts.googleapis.com;
 object-src 'none';
-style-src 'self' 'unsafe-inline' fonts.googleapis.com;
-connect-src wss: ws: https:;
-base-uri 'self';
-script-src 'self' 'unsafe-inline' 'strict-dynamic' 'sha256-maqDExIpmR/IHAmL3YUZ33zmc7HzMWYhure4CjnFlV0=';
-script-src-elem 'self' 'unsafe-inline' b2ctest.pinkerton.com *.login.microsoftonline.com *.google.com *.gstatic.com *.zdassets.com *.azurewebsites.net;
-img-src 'self' data: mediastream: blob: filesystem:;
-font-src 'self' fonts.gstatic.com;">
+frame-src 'self';child-src 'self';
+img-src 'self' cdnjs.cloudflare.com fonts.gstatic.com;
+font-src 'self' cdnjs.cloudflare.com fonts.googleapis.com fonts.gstatic.com;
+connect-src 'self' api-test1-user4.project-amber-smas.com consumer.intel.com cdnjs.cloudflare.com fonts.gstatic.com fonts.googleapis.com;manifest-src 'self';
+base-uri 'self';">
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
