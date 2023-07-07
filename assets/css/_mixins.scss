@@ -1,0 +1,30 @@
+@mixin outline-without-focus() {
+    outline-offset: 3px;
+    outline-width: 8px;
+    outline-color: transparent;
+    outline-style: solid;
+}
+
+@mixin outline-with-focus() {
+    outline-color: #00377c;
+    outline-offset: 3px;
+    outline-width: 3px;
+    outline-style: solid;
+    transition: outline .5s ease-out;
+}
+
+@mixin outline-with-focus-header() {
+    outline-color: #fff;
+    outline-offset: 3px;
+    outline-width: 3px;
+    outline-style: solid;
+    transition: outline .5s ease-out;
+}
+
+@mixin outline-with-focus-context() {
+    outline-color: #00377c;
+    outline-offset: -4px;
+    outline-width: 3px;
+    outline-style: solid;
+    transition: outline .5s ease-out;
+}
