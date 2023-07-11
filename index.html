@@ -1,14 +1,17 @@
 <!DOCTYPE html><html lang="en"><head>
   <meta charset="utf-8">
   <title>LearnApp</title>
-  <meta http-equiv="Content-Security-Policy" content="script-src 'sha256-OZhRbAgLjQb7wHKTdMcmDZV5YHz21xBIcEK9Z8LUi6c=' 'sha256-f9Iic5cd92oaQcM70ZwpkF8ZwJaXJDwETCqvU7F1Dxs=' 'sha256-d8NSBh8RFUIZ+SxE3u+C8v4pn1UhfnBiPCUbr/uGbW8=' 'sha256-77c352061f11154219f92c44deef82f2fe299f55217e70623c251baffb866d6f' 'unsafe-hashes';
-  style-src 'self' https://cdnjs.cloudflare.com https://fonts.googleapis.com https://fonts.gstatic.com 'unsafe-inline';
-  script-src-attr 'unsafe-inline' https://varunkumarintel.github.io;
-  script-src-elem  https://varunkumarintel.github.io;
-  font-src 'self' https://cdnjs.cloudflare.com https://fonts.googleapis.com https://fonts.gstatic.com 'unsafe-inline';
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self';
+  script-src 'self' https://cdnjs.cloudflare.com 'nonce-ub2qHp8hj0SlVhBDxb/qSA==' 'strict-dynamic';
+  script-src-attr 'unsafe-inline' https://amber-test1-user4.project-amber-smas.com;
+  script-src-elem  https://amber-test1-user4.project-amber-smas.com;
+  style-src 'self' 'unsafe-inline' cdnjs.cloudflare.com fonts.googleapis.com;
   object-src 'none';
-  trusted-types angular angular#bundler;
-  require-trusted-types-for 'script';">
+  frame-src 'self';child-src 'self';
+  img-src 'self' cdnjs.cloudflare.com fonts.gstatic.com;
+  font-src 'self' cdnjs.cloudflare.com fonts.googleapis.com fonts.gstatic.com;
+  connect-src 'self' api-test1-user4.project-amber-smas.com consumer.intel.com cdnjs.cloudflare.com fonts.gstatic.com fonts.googleapis.com;manifest-src 'self';
+  base-uri 'self';">
   <base href="/int/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
